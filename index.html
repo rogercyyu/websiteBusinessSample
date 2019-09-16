@@ -1,0 +1,206 @@
+<!--
+Name: Roger Yu
+ID: 104102181
+Email: ryu31@myseneca.ca
+Course: WEB222
+Assignment #1 - Main Page
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Main Page</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Tinos&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    </head>
+    <body>
+        <section class="topbar"> <!-- For the navigation bar -->
+            <div class="header">
+                <div id="burger">
+                    <a style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</a>
+                </div>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <img class="overlaylogo" src="img/logo.png" alt="logo">
+                        <a href="index.html">home</a>
+                        <a href="about.html">about</a>
+                        <a href="#">services</a>
+                        <a href="#">clients</a>
+                        <a href="#">news</a>
+                        <a href="#">contacts</a>
+                        <a id="phone"><i class='fas fa-mobile-alt'></i> (999) 999-9999</a>
+                    </div>
+                </div>
+                <div class="header-left">
+                    <a><i class='fas fa-mobile-alt'></i> (999) 999-9999</a>
+                </div>
+                <div class="header-centered">
+                    <img class="logo" src="img/logo.png" alt="home button">
+                </div>
+                <div class="header-right">
+                    <div class="links">
+                        <a href="index.html" id="active">home</a>
+                        <a href="about.html">about</a>
+                        <a href="#">services</a>
+                        <a href="#">clients</a>
+                        <a href="#">news</a>
+                        <a href="#">contacts</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-main darken darken-with-text"> <!-- For main image -->
+            <div class="centered">
+                <h2 class="text-centered">impressive sounding inc</h2>
+                <p>Business + Intellectual<br>Property Attorneys</p>
+            </div>
+        </section>
+        <section class="center-content"> <!--  Main Information -->
+            <section class="main-info">
+                <div class="grid-item">
+                    <h1>Advocating for creative communities and entrepreneurs since 2003</h1>
+                    <p>
+                        Headquartered in New York City with a satellite office in Los Angeles, Harris Ingram LLP represents creative clients on and between coasts. Our firm specializes in all Intellectual Property matters, from the seed of an idea to the final product. Whether you’re a musician, designer, engineer, or small business owner, we will not only protect what you create, but we’ll also help it thrive in the world. We bring extensive experience and professionalism to every case and customize our support to your individual needs and concerns.
+                    </p>
+                    <p>
+                        Our attorneys have been practicing for over a decade and started during the .com internet boom of the late 90s. We’re on the pulse of modern technology and media, and have monitored their evolution to inform our own legal approaches—all to give you exceptional advice that will last for years to come.
+                    </p>
+                    <p>
+                        Get in touch with us to set up a consultation, or use the contact form at the bottom of this page to enquire whether our services are right for you.
+                    </p>
+                    <input type="button" value="learn more" class="button-large">
+                </div>
+                <div class="grid-item">
+                    <!--space-->
+                </div>
+                <div class="grid-item">
+                    <h1>Contact</h1>
+                    <h2><i class='fas fa-location-arrow'></i><span> </span>Location</h2>
+                    <p>123 Street Name Ave.<br>Toronto, ON 000000</p>
+                    <h2><i class='fas fa-mobile-alt'></i><span> </span>Contact</h2>
+                    <p>noemail@noemail.com<br>(999) 999-9999</p>
+                </div>
+            </section>
+            <section class="info-container"> <!--  For grid items -->
+                <div class="grid-item-a">
+                    <h1>Areas of Practice</h1>
+                </div>
+                <div class="grid-item">
+                    <h2>Music</h2>
+                    <p>
+                        The world of music is ever growing and evolving, and we’re not just talking about sound trends. With the consistent introduction of varying revenue streams and distribution channels, the opportunity for profit grows, but so does the complexity. That’s where we come in.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h2>Television, Film, &amp; Theatre</h2>
+                    <p>
+                        The way people consume entertainment is constantly in flux, so the laws must adapt quickly. Harris Ingram strives to anticipate these changes so you can focus more on creating the performance of a lifetime.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h2>Digital Media &amp; Technology</h2>
+                    <p>
+                        The internet, software, and technology are so pervasive that we can’t remember having ever lived without them. They make our lives simpler, but behind the curtain are fluctuating challenges in protection and monetization—challenges that our firm stays two steps ahead of.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h2>Art Litigation</h2>
+                    <p>
+                        Demystifying art law is in itself a creative practice. It requires finesse, strategic structuring, and in many ways, empathy. At the end of the day, art and its worth are profoundly personal. That’s why we advise mediation or arbitration before stepping into litigation.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h2>Business Strategy</h2>
+                    <p>
+                        The startup and small business marketplace is still a new and fierce frontier that requires legal advice from attorneys who are deeply entrenched in the particularities of venture financing. Our firm gives you an holistic approach, so your company can get the best competitive advantage.
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <h2>Fashion, Apparel &amp; Textile Law</h2>
+                    <p>
+                        Fashion law is a little bit like the Wild West. There’s a lot of potential, but the rules can seem convoluted and vague at best. Protecting a brand or even a single design involves intellectual property, copyrights, trademarks, and patents.
+                    </p>
+                </div>
+            </section>
+            <section class="quote"> <!--  For quote -->
+                <p>
+                    “We must all obey the great law of change. It is the most powerful law of nature.” 
+                </p>
+                <h2>- Random Guy</h2>
+            </section>
+            <section class="form"> <!--  For form -->
+                <h1>Let's Chat.</h1>
+                <p>
+                    Use the form below to contact us regarding your legal enquiry. Please be as detailed as possible. Include your industry along with any specific document requests. To help us best service your enquiry, we recommend that you first describe the issue you’re having before telling us what you want to achieve. You may also email or call us to make an appointment.
+                </p>
+                <p>
+                    For job opportunities, please email us your resume. We’re always looking for new and exceptional talent to lead the firm into uncharted fields of practice.
+                </p>
+                <div class="form-grid">
+                    <div class="form-grid-item-a">
+                        <h4>Name *</h4>
+                    </div>
+                    <div class="form-grid-item-b">
+                        <input type="text" class="textbox" name="firstname">
+                        <p id="name">First Name</p>
+                    </div>
+                    <div class="form-grid-item-c">
+                        <input type="text" class="textbox" name="lastname">
+                        <p id="name">Last Name</p>
+                    </div>
+                    <div class="form-grid-item-d">
+                        <h4>Email Address *</h4>
+                        <input type="text" class="textbox-email" name="email">
+                    </div>
+                    <div class="form-grid-item-e">
+                        <h4>How Can We Help? *</h4>
+                        <p id="disclaimer">
+                            Please do not include confidential or sensitive information in your message. In the event that we are representing a party with opposing interests to your own, we may have a duty to disclose any information you provide to our client.
+                        </p>
+                        <textarea></textarea>
+                        <br>
+                        <br>
+                        <input type="button" value="submit" class="button-small">
+                    </div>
+                </div>
+            </section>
+            <section class="footer"> <!--  Footer element begins -->
+                <div class="footer-grid">
+                    <div class="foot-grid-item-a">
+                        <h3>Licensed in New York + California</h3>
+                    </div>
+                    <div class="foot-grid-item-b">
+                        <img src="img/footer_logo.png" alt="footer logo" align="right" style="width:80px;height:80px;border:0">
+                    </div>
+                    <div class="foot-grid-item-c">
+                        <a href="index.html">home</a><span> | </span>
+                        <a href="about.html">about</a><span> | </span>
+                        <a href="#">services</a><span> | </span>
+                        <a href="#">clients</a><span> | </span>
+                        <a href="#">news</a><span> | </span>
+                        <a href="#">contacts</a>
+                        <p>
+                            (212) 555-0110 | template.placeholder@example.com <br>
+                            777 Nameless Ave. New York, NY 00000 <br>
+                            disclaimer | attorney advertising
+                        </p>
+                    </div>
+                    <div class="foot-grid-item-d">
+                        <p>
+                            Harris Ingram LLP is a boutique business and intellectual property law practice that provides legal advice to some of the most innovative creatives and emerging companies in the arts, entertainment, digital media, tech, and fashion industries.
+                        </p>
+                        <p>Created in <a href="#">Brackets</a></p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <script src="js/script.js">
+        </script>
+    </body>
+</html>
